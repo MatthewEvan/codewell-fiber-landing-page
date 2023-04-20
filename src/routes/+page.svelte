@@ -1,2 +1,10 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1>Welcome to Fibre</h1>
+<p>Website Prototype of Fibre: Online Portfolio Maker by Matthew</p>
+<p>This is only a prototype for me to discover svelte and practice layouting</p>
+
+<style>
+	@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+  * {
+    font-family: "Inter", sans-serif;
+  }
+</style>
