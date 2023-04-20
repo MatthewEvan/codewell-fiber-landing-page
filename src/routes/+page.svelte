@@ -3,6 +3,7 @@
 	import Nav from './components/nav.svelte';
 
   // src and links
+	import HeadingImage from "$lib/assets/hero-Illustration.png"
 
   // logic and functions
 </script>
@@ -13,6 +14,7 @@
 		<h1>Welcome to Fibres</h1>
 		<p>Website Prototype of Fibre: Online Portfolio Maker by Matthew</p>
 		<p>This is only a prototype for me to discover svelte and practice layouting</p>
+		<img src={HeadingImage} alt="what the hell">
 	</main>
 	<footer></footer>
 </body>
