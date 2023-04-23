@@ -14,7 +14,8 @@
 		<h1>Welcome to Fibres</h1>
 		<p>Website Prototype of Fibre: Online Portfolio Maker by Matthew</p>
 		<p>This is only a prototype for me to discover svelte and practice layouting</p>
-		<img src={HeadingImage} alt="what the hell">
+		<!-- <img src={HeadingImage} alt="what the hell"> -->
+		<a href="none">A link to nowhere</a>
 	</main>
 	<footer></footer>
 </body>
@@ -26,12 +27,12 @@
 		margin: 0;
 		font-family: 'Inter', sans-serif;
 		box-sizing: border-box;
-		font-size: 14px;
+		font-size: 16px;
 	}
 
-	/* a {
+	a {
 		text-decoration: none;
-	} */
+	}
 
 	body {
 		font-family: 'Inter', sans-serif;
